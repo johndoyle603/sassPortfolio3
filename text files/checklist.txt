@@ -1,0 +1,26 @@
+Still need:
+
+Rearrange menu: 
+
+    
+    --Bio/Web projects
+    --Writing samples
+    --Resume
+    --Contact
+    --Home
+
+Articles blocks
+
+Photo/headshot
+
+    -- Fix responsiveness of photo so it doesn't become an oval
+
+// Links to projects
+
+    -- Photos to go with projects list
+
+// Font on bio page
+
+// Make sure color is correct on menu hover
+
+// Write bio paragraph

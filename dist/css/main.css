@@ -126,7 +126,7 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 99rem; }
+    font-size: 6rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -213,7 +213,7 @@ main {
   display: inline-block;
   padding: 0.5rem 1 rem;
   border: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 600;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
@@ -227,7 +227,7 @@ main {
 .btn-neutral {
   background: black;
   color: #eece1a;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto", sans-serif;
   font-weight: bold; }
 
 .btn-light {

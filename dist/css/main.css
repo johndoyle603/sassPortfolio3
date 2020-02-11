@@ -1,8 +1,8 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 52px;
+  top: 55px;
   cursor: pointer;
   transition: all 0.6s ease-out; }
   .menu-btn .btn-line {
@@ -166,6 +166,17 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
+.menu-type {
+  position: absolute;
+  top: 10px;
+  right: 35px;
+  z-index: 3;
+  cursor: pointer;
+  transition: all 0.6s ease-out;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: bold; }
+
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -227,17 +238,22 @@ main {
 
 .btn-dark {
   background: black;
-  color: #fff; }
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px; }
 
 .btn-neutral {
   background: black;
   color: #eece1a;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold; }
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px; }
 
 .btn-light {
   background: #c4c4c4;
-  color: #333; }
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px; }
 
 #main-footer {
   text-align: center;

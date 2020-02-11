@@ -74,6 +74,18 @@ main {
   }
 }
 
+.menu-type {
+  position: absolute;
+  top: 10px;
+  right: 35px;
+  z-index: 3;
+  cursor: pointer;
+  @include easeOut;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: bold;
+}
+
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -165,19 +177,24 @@ main {
   @extend .btn;
   background: darken($primary-color, 50);
   color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
 }
 
 .btn-neutral {
   background: black;
   color: #eece1a;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .btn-light {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
 }
 
 #main-footer {

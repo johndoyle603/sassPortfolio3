@@ -196,7 +196,15 @@ main {
   .about-info .job-1 {
     grid-area: job1;
     font-family: "Courier New", Courier, monospace;
-    font-size: large; }
+    font-size: large;
+    font-family: "Roboto", sans-serif; }
+    .about-info .job-1 img {
+      width: 100%;
+      border: 3px #fff solid; }
+      .about-info .job-1 img:hover {
+        opacity: 0.5;
+        border-color: #eece1a;
+        transition: all 0.6s ease-out; }
   .about-info .job-2 {
     grid-area: job2;
     font-family: "Courier New", Courier, monospace; }

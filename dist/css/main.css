@@ -106,7 +106,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/codingLife.JPG);
@@ -125,8 +125,7 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 400;
-  font-family: "Courier New", Courier, monospace; }
+  font-weight: 400; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
@@ -185,7 +184,8 @@ main {
     font-family: "Courier New", Courier, monospace; }
   .about-info .job-1 {
     grid-area: job1;
-    font-family: "Courier New", Courier, monospace; }
+    font-family: "Courier New", Courier, monospace;
+    font-size: large; }
   .about-info .job-2 {
     grid-area: job2;
     font-family: "Courier New", Courier, monospace; }
@@ -232,7 +232,7 @@ main {
 .btn-neutral {
   background: black;
   color: #eece1a;
-  font-family: "Roboto", sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold; }
 
 .btn-light {

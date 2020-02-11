@@ -11,7 +11,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   line-height: 1.5;
 }
 
@@ -22,7 +22,6 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
-  font-family: "Courier New", Courier, monospace;
   &.lg-heading {
     font-size: 6rem;
   }
@@ -101,6 +100,7 @@ main {
   .job-1 {
     grid-area: job1;
     font-family: "Courier New", Courier, monospace;
+    font-size: large;
   }
 
   .job-2 {
@@ -170,7 +170,7 @@ main {
 .btn-neutral {
   background: black;
   color: #eece1a;
-  font-family: "Roboto", sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
 

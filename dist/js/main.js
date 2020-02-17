@@ -1,4 +1,5 @@
 let menuBtn = document.querySelector(".menu-btn");
+let menuWordBtn = document.querySelector(".menu-type");
 let menu = document.querySelector(".menu");
 let menuNav = document.querySelector(".menu-nav");
 let menuBranding = document.querySelector(".menu-branding");
@@ -9,6 +10,7 @@ let navItem = document.querySelectorAll(".nav-item");
 let showMenu = false;
 
 menuBtn.addEventListener("click", toggleMenu);
+menuWordBtn.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
   if (!showMenu) {

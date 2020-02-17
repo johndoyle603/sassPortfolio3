@@ -285,6 +285,9 @@ main {
   height: 60px;
   opacity: 0.25; }
 
+.menu-all {
+  display: inline block; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }

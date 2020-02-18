@@ -150,7 +150,19 @@ main {
 
   .job-3 {
     grid-area: job3;
-    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+
+    img {
+      width: 100%;
+      border: 3px #fff solid;
+
+      &:hover {
+        opacity: 0.5;
+        border-color: $secondary-color;
+        @include easeOut;
+      }
+    }
   }
 
   .job {
